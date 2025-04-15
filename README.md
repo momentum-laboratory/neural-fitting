@@ -14,7 +14,7 @@
 # Neural Bloch-McConnell Fitting (NBMF)
 Why & what: *Quantitative molecular imaging extracts biophysical parameter maps by solving physics-based inverse problems. We employ AI-driven methods to address the challenges of dynamic complexity & ill-posedness, enabling rapid and robust estimation scaled to millions of brain voxels.*
 ## 
-This repository shares the implementation of the methods described in our work **"Multi-Parameter Molecular MRI Quantification using Physics-Informed Self-Supervised Learning"**, presented in ISMRM24' ([abstract](https://archive.ismrm.org/2024/4478.html)) and accepted for publication in Communications Physics. Also available as a preprint on Arxiv, see [abstract](https://arxiv.org/abs/2411.06447), [html full-text](https://arxiv.org/html/2411.06447), [pdf full-text](https://arxiv.org/pdf/2411.06447). 
+This repository shares the implementation of the methods described in our work **"Multi-Parameter Molecular MRI Quantification using Physics-Informed Self-Supervised Learning"**, presented in ISMRM24' ([abstract](https://archive.ismrm.org/2024/4478.html)) and published in Communications Physics: https://www.nature.com/articles/s42005-025-02063-8. Also available as a preprint on Arxiv, see [abstract](https://arxiv.org/abs/2411.06447), [html full-text](https://arxiv.org/html/2411.06447), [pdf full-text](https://arxiv.org/pdf/2411.06447). 
 
 Main targets, and ideas/methods developed and implemented to achieve them: 
 * ✨Speed✨: **Jax-based auto-differentiated numerical solutions** of Ordinary Differential Equations (ODE); towards **computationally feasible gradients** of forward physics models relfecting complex dynamics simulation. This facilitates fitting and estimation of physical constants underlying the ODE coefficients from observed data.
@@ -82,5 +82,5 @@ Whether you have a question or a bug to fix, please let us know. See our group w
 ## 📑 References
 If you use this code for research or software development please cite the following publication:
 ``` # TO CHANGE
-Finkelstein, A., Vladimirov, N., Zaiss, M., & Perlman, O. (2024). Multi-Parameter Molecular MRI Quantification using Physics-Informed Self-Supervised Learning. arXiv preprint arXiv:2411.06447.‏
+Finkelstein, A., Vladimirov, N., Zaiss, M. et al. Multi-parameter molecular MRI quantification using physics-informed self-supervised learning. Commun Phys 8, 164 (2025). https://doi.org/10.1038/s42005-025-02063-8
 ```
